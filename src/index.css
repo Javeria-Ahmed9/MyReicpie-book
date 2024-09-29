@@ -170,7 +170,7 @@ input {
   }
   #searchDiv button {
     height: 25px;
-    font-size: 11px;
+    font-size: 12px;
     padding-top: 1.5px;
   }
 
@@ -184,7 +184,7 @@ input {
     margin-top: 0px;
   }
   #ShowRecipe h2 {
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 33px;
     width: 250px;
   }
