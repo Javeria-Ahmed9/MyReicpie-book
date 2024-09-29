@@ -19,7 +19,7 @@ body {
 #Spin{
   display: flex;
   justify-content: center;
-  margin-top: 95px;
+  margin-top: 74px;
 }
 #maindiv:hover{
   transform: rotateY(10deg);
@@ -128,7 +128,6 @@ input {
 #spinner {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
 }
 #list1 li {
   width: 900px;
@@ -140,7 +139,7 @@ input {
 #notFound{
   height: 50px;
   width: 50px;
-  margin-top: 65px;
+  margin-top: 74px;
 }
 @media (max-width: 860px) {
   #maindiv {

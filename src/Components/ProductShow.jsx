@@ -20,7 +20,7 @@ export function ProductShow() {
         <Blocks
           height="80"
           width="80"
-          color="#4fa94d"
+          color="#343148ff"
           ariaLabel="blocks-loading"
           wrapperStyle={{}}
           wrapperClass="blocks-wrapper"
