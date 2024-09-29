@@ -59,7 +59,6 @@ h4 {
   border-radius: 4px;
   font-size: 18px;
   overflow: hidden;
-  /* background-color: #d7c49eff; */
   background-color: rgb(244, 177, 138);
   padding-top: 3px;
   height: 51px;
@@ -92,6 +91,7 @@ input {
 }
 
 #iconShape {
+  margin-top: -2px;
   height: 35px;
   width: 35px;
 }
