@@ -11,7 +11,6 @@ export function RecipeSearch() {
   let handleSearchTerm = (event) => {
     setSearchTerm(event.target.value);
   };
-  console.log(spin);
   let handle = () => {
     if (searchTerm.trim() !== "") {
       dispatch(fetchData(searchTerm));
