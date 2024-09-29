@@ -63,6 +63,7 @@ h4 {
   color: aliceblue;
 }
 input {
+  border-radius: 6px;
   box-shadow: rgba(248, 213, 190, 0.973) 0px 30px 60px -12px inset, rgb(250, 250, 250) 0px 18px 36px -18px inset;
   margin-top: 20px;
   width: 270px;
@@ -75,6 +76,7 @@ input {
   color: aliceblue;
   border: 1px solid black;
   margin-top: 1px;
+  border-radius: 2px;
 }
 #recipebtn {
   border: 1px solid #343148ff;
@@ -162,14 +164,14 @@ input {
   }
   input {
     margin-top: 12px;
-    width: 220px;
-    height: 30px;
+    width: 225px;
+    height: 33px;
 
   }
   #searchDiv button {
     height: 25px;
     font-size: 11px;
-    padding-top: 1px;
+    padding-top: 1.5px;
   }
 
   #icon {
