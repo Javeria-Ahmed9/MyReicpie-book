@@ -15,11 +15,16 @@ export default function RecipePage() {
     dispatch(UnShow(true));
   };
   return (
-    <div id="ShowRecipe">
+    <div id="ShowRecipe" className="container">
       {" "}
-      <div id="icon">
-        <h2>{Clicked[0].title}</h2>
-        <RxCross1 id="iconShape" onClick={handleClose} />
+      <div className="row ">
+        <div className="col-10">
+          <h2>{Clicked[0].title}</h2>
+        </div>
+        <div className="col-2 ">
+          {" "}
+          <RxCross1 id="iconShape" onClick={handleClose} />
+        </div>
       </div>
       <h5 className="container">Ingredients</h5>
       <div id="list">
