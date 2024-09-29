@@ -17,11 +17,11 @@ export default function RecipePage() {
   return (
     <div id="ShowRecipe" className="container">
       {" "}
-      <div className="row ">
-        <div className="col-10">
+      <div id="row" className="row ">
+        <div className="col-11">
           <h2>{Clicked[0].title}</h2>
         </div>
-        <div className="col-2 ">
+        <div className="col-1">
           {" "}
           <RxCross1 id="iconShape" onClick={handleClose} />
         </div>
