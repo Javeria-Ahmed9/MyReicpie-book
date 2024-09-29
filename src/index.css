@@ -13,7 +13,7 @@ body {
   border-radius: 5px;
   height: 220px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  /* border: 1px solid gray; */
+  margin-bottom: 0px;
   border-radius: 5px;
 }
 #maindiv:hover{
@@ -94,7 +94,7 @@ input {
 }
 #ShowRecipe h2 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 34px;
   color: rgb(167, 46, 46);
   font-family: Georgia, serif;
   text-align: center;
@@ -175,6 +175,7 @@ input {
   }
 
   #icon {
+
     margin-top: 10px;
   }
   #iconShape {
@@ -184,8 +185,8 @@ input {
     margin-top: 0px;
   }
   #ShowRecipe h2 {
-    font-size: 16px;
-    margin-left: 33px;
+    font-size: 19px;
+    margin-left: 36px;
     width: 250px;
   }
   #ShowRecipe h5 {
