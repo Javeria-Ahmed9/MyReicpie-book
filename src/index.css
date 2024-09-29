@@ -16,6 +16,11 @@ body {
   margin-bottom: 0px;
   border-radius: 5px;
 }
+#Spin{
+  display: flex;
+  justify-content: center;
+  margin-top: 95px;
+}
 #maindiv:hover{
   transform: rotateY(10deg);
 }

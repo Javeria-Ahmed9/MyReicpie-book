@@ -4,6 +4,7 @@ let dat = createSlice({
   initialState: {
     Clicked: [],
     stateIs: true,
+    spin: true,
   },
   reducers: {
     Showdat(state, action) {
@@ -15,7 +16,10 @@ let dat = createSlice({
     Selectedrecipe(state, action) {
       state.Clicked = Array(action.payload);
     },
+    NotTrue(state, action) {
+      state.spin = action.payload;
+    },
   },
 });
-export const { Showdat, UnShow, Selectedrecipe } = dat.actions;
+export const { Showdat, UnShow, Selectedrecipe, NotTrue } = dat.actions;
 export default dat.reducer;
