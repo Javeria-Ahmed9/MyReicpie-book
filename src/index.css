@@ -64,7 +64,7 @@ h4 {
 }
 input {
   border-radius: 6px;
-  box-shadow: rgba(248, 213, 190, 0.973) 0px 30px 60px -12px inset, rgb(250, 250, 250) 0px 18px 36px -18px inset;
+  box-shadow: rgba(248, 213, 190, 0.973) 0px 30px 60px -12px inset, rgba(235, 236, 237, 0.918) 0px 18px 36px -18px inset;
   margin-top: 20px;
   width: 270px;
   height: 40px;
