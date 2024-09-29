@@ -1,0 +1,202 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1642115968902-ffb766dba853?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDkwfHxzaW1wbGUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww);
+  background-attachment: fixed;
+  background-size: cover;
+}
+#maindiv {
+  background-image: url(https://images.unsplash.com/photo-1506368083636-6defb67639a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29va2luZ3xlbnwwfHwwfHx8MA%3D%3D);
+  background-size: cover;
+  margin-bottom: 20px;
+  height: 100px;
+  margin-top: 25px;
+  width: 187px;
+  border-radius: 5px;
+  height: 220px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+#picDiv {
+  justify-content: center;
+  display: flex;
+}
+#content {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
+#pic {
+  margin-top: 4.5px;
+  background-color: brown;
+  height: 122px;
+  width: 122px;
+  border-radius: 50%;
+  background-image: url(https://plus.unsplash.com/premium_photo-1663047583289-93415cd1174d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHJlY2lwZSUyMGJvb2t8ZW58MHx8MHx8fDA%3D);
+  background-size: cover;
+}
+#searchDiv {
+  margin-top: 20px;
+}
+h3 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h4 {
+  margin-bottom: 0px;
+  border-radius: 4px;
+  font-size: 18px;
+  overflow: hidden;
+  /* background-color: #d7c49eff; */
+  background-color: rgb(244, 177, 138);
+  padding-top: 3px;
+  height: 51px;
+  font-family: cursive system-ui ;
+  color: #343148ff;
+}
+#maindiv button {
+  margin-top: 4.5px;
+  background-color: #343148ff;
+  color: aliceblue;
+}
+input {
+  margin-top: 20px;
+  width: 250px;
+  height: 40px;
+}
+#searchDiv button {
+  background-color: #343148ff;
+  height: 30.5px;
+  color: aliceblue;
+  border: 1px solid black;
+  margin-top: 1px;
+}
+#recipebtn {
+  border: 1px solid #343148ff;
+}
+
+#icon {
+  margin-top: 10px;
+  display: flex;
+}
+#iconShape {
+  height: 31px;
+  width: 31px;
+  margin-left: 190px;
+  margin-top: 2px;
+}
+#ShowRecipe h2 {
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(167, 46, 46);
+  font-family: Georgia, serif;
+  text-align: center;
+  margin-left: 220px;
+  width: 650px;
+}
+#ShowRecipe h5 {
+  font-size: 25px;
+  text-align: left;
+  margin-top: 19px;
+}
+
+#ShowRecipe li {
+  width: 290px;
+  text-align: left;
+}
+#list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#list1 {
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+#spinner {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+#list1 li {
+  width: 900px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: -10px;
+}
+
+#notFound{
+  height: 50px;
+  width: 50px;
+  margin-top: 65px;
+}
+@media (max-width: 860px) {
+  #maindiv {
+    width: 90px;
+    height: 110px;
+  }
+  #recipebtn {
+    height: 20px;
+    font-size: 9px;
+    padding-top: 2px;
+    border: 1px solid #343148ff;
+  }
+  #pic {
+    margin-top: 6px;
+    height: 54px;
+    width: 53px;
+    margin-bottom: 2px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 10px;
+    height: 31px;
+  }
+  input {
+    margin-top: 12px;
+    width: 150px;
+    height: 25px;
+  }
+  #searchDiv button {
+    height: 20px;
+    font-size: 9px;
+  }
+
+  #icon {
+    margin-top: 10px;
+  }
+  #iconShape {
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+    margin-top: 0px;
+  }
+  #ShowRecipe h2 {
+    font-size: 14px;
+    margin-left: 33px;
+    width: 250px;
+  }
+  #ShowRecipe h5 {
+    font-size: 12px;
+    margin-top: 13px;
+  }
+
+  #ShowRecipe li {
+    font-size: 10px;
+    width: 270px;
+    margin-bottom: -14px;
+  }
+  #list1 {
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
+  #list1 li {
+    font-size: 10px;
+    width: 253px;
+  }
+  #spinner {
+        margin-top: 60px;
+  }
+}
